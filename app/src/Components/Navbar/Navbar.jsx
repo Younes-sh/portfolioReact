@@ -1,5 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import './navbar.css'
+
+
+
 const Navbar = () => {
   return (
     <div className='Navbar'>
@@ -15,6 +19,9 @@ const Navbar = () => {
                     <Link to='/projects'>Projects</Link>
                 </li>
             </ul>
+        </div>
+        <div className='LangNav'>
+
         </div>
     </div>
   )
