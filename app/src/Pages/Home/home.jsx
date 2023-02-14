@@ -2,7 +2,7 @@ import Header from '../../Components/Header/Header';
 import './home.css'
 const Home = () => {
     let infoPersonal = [
-        {name:'Younes' , job:'Developer',description:'im Fullstack developer'},
+        {name:'Younes' , job:'Developer',description:`i'm Fullstack developer`},
     ]
     return (
         <div  className='Home'>
