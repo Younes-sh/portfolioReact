@@ -1,23 +1,25 @@
-import Header from '../../Components/Header/Header'
+import Header from '../../Components/Header/Header';
+import './home.css'
 const Home = () => {
     let infoPersonal = [
         {name:'Younes' , job:'Developer',description:'im Fullstack developer'},
     ]
     return (
-        <>
-            <h1>Home page</h1>
-            <Header name={infoPersonal[0].name} job={infoPersonal[0].job}  description={infoPersonal[0].description} />
-            {/*  */}
+        <div  className='Home'>
+            <div className='container-Home'>
+                <Header name={infoPersonal[0].name} job={infoPersonal[0].job}  description={infoPersonal[0].description} />
+                {/*  */}
+
+                {/*  */}
+
+                {/*  */}
+
+                {/*  */}
+
+                {/*  */}
+            </div>
             
-            {/*  */}
-            
-            {/*  */}
-            
-            {/*  */}
-            
-            {/*  */}
-            
-        </>
+        </div>
     )
 }
 
