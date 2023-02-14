@@ -1,22 +1,24 @@
-import React from 'react'
+// import React,{useState,useEffect} from 'react'
 import {Link} from 'react-router-dom';
 import './navbar.css'
 
 
-
 const Navbar = () => {
+
+ 
+
   return (
     <div className='Navbar'>
         <div className='container-menu'>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link style={{color:'white'}} to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <Link style={{color:'white'}} to='/contact'>Contact</Link>
                 </li>
                 <li>
-                    <Link to='/projects'>Projects</Link>
+                    <Link style={{color:'white'}} to='/projects'>Projects</Link>
                 </li>
             </ul>
         </div>
