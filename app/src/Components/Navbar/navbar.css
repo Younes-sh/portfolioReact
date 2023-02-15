@@ -18,3 +18,9 @@ background: linear-gradient(90deg, rgba(0,0,51,1) 0%, rgba(5,5,91,1) 60%, rgba(1
     list-style-type: none;
     margin: 20px;
 }
+
+@media screen and (max-width:768px) {
+    .Navbar {
+        display: none;
+    }
+}
