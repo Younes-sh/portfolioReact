@@ -1,4 +1,5 @@
 import './header.css'
+import ImageHeader from '../../assets/younes.png'
 const Header = ({name,description,job}) => {
   return (
     <div className="Header">
@@ -9,7 +10,7 @@ const Header = ({name,description,job}) => {
         <p>{description}</p>
       </div>
       <div className="image_container">
-        <img src="" alt="" />
+        <img src={ImageHeader} alt="" />
       </div>
     
     </div>

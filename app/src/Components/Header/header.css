@@ -1,8 +1,24 @@
+/* Container */
+.Header {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width:1200px) {
+  .Header {
+    flex-direction: column;
+  }
+}
+
+
+/*  */
 .Header-txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 50%;
     height: 400px;
     text-align: start;
     background-color: rgb(179, 116, 22);
@@ -43,4 +59,11 @@
       filter: blur(0);
       transform: translateX(0);
     }
+}
+
+/* Image */
+
+.image_container {
+  width: 50%;
+  height: auto;
 }
