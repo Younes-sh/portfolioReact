@@ -10,3 +10,18 @@
     height: auto;
     border: solid 1px;
 }
+
+
+@media screen and (max-width:1200px) {
+    
+    .container-Home {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .container-Home {
+        width: 100%;
+    }
+}
