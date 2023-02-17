@@ -61,7 +61,9 @@
   height: auto;
 }
 .image_container img {
-  
+  /* filter: drop-shadow( 0 0 0.75rem #196edd); */
+  /* filter: drop-shadow(0.35rem 0.35rem 0.4rem #196edd); */
+  filter: invert(100%);
 }
 
 @media screen and (max-width:1200px) {
