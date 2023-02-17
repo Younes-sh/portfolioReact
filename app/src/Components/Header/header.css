@@ -60,7 +60,9 @@
   width: 50%;
   height: auto;
 }
-
+.image_container img {
+  
+}
 
 @media screen and (max-width:1200px) {
   .Header {
