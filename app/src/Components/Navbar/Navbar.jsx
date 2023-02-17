@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
     <div className='Navbar'>
         <div className='container-menu'>
+            <button className='menu-button'>Open</button>
             <ul>
                 <li>
                     <Link style={{color:'white'}} to='/'>Home</Link>
