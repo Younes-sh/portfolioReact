@@ -10,7 +10,7 @@ const Header = ({name,description,job}) => {
         <p>{description}</p>
       </div>
       <div className="image_container">
-        <img src={ImageHeader} alt="" />
+        <img src={ImageHeader} alt="programmer" />
       </div>
     
     </div>
