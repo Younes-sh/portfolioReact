@@ -87,7 +87,7 @@
     }
   }
 
-  @media screen and (max-width:76px) {
+  @media screen and (max-width:768px) {
     .container-menu ul {
       flex-direction: column;
     }
