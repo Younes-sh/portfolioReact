@@ -13,6 +13,8 @@
     width: 64%;
     height: auto;
     /* border: solid 1px; */
+    background-color: #022e66;
+
 }
 
 
@@ -28,4 +30,11 @@
     .container-Home {
         width: 100%;
     }
+}
+
+.container-experience {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    gap: 7px;
 }
