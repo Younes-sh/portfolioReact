@@ -1,7 +1,8 @@
 .Home {
     width: 100%;
     height: auto;
-    background-color: #022e66;
+    /* background-color: #022e66; */
+    background-image: url(../../assets/back2.jpg);
     display: flex;
     justify-content: center;
     background-position: center;
@@ -13,7 +14,6 @@
     width: 64%;
     height: auto;
     /* border: solid 1px; */
-    background-color: #022e66;
 
 }
 
@@ -33,5 +33,6 @@
 }
 
 .container-experience {
-    margin-top: 150px;
+    margin-top: 250px;
+
 }

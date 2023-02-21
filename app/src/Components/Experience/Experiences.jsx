@@ -1,20 +1,21 @@
 import Experience from "./Experience"
 import './Experience.css'
 let experiences = [
-  { id: 1, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 2, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 3, Img: '' , title:'1' , description:'younes' },
-  { id: 4, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 5, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 6, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 7, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 8, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 9, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 10, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 11, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 12, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 13, Img: '' , title:'1' , description:'jkdskbasd' },
-  { id: 14, Img: '' , title:'1' , description:'jkdskbasd' },
+  { id: 1, Img: '' , title:'HTML' , description:'Markup Language' },
+  { id: 2, Img: '' , title:'CSS' , description:'jkdskbasd' },
+  { id: 3, Img: '' , title:'JS' , description:'Javascript' },
+
+  { id: 4, Img: '' , title:'React' , description:'jkdskbasd' },
+  { id: 5, Img: '' , title:'Node.js' , description:'jkdskbasd' },
+  { id: 6, Img: '' , title:'MongoDB' , description:'jkdskbasd' },
+
+  { id: 7, Img: '' , title:'Next.js' , description:'jkdskbasd' },
+  { id: 8, Img: '' , title:'Git' , description:'jkdskbasd' },
+  { id: 9, Img: '' , title:'React' , description:'jkdskbasd' },
+  
+  { id: 10, Img: '' , title:'Node.js' , description:'jkdskbasd' },
+  { id: 11, Img: '' , title:'MongoDB' , description:'jkdskbasd' },
+  { id: 12, Img: '' , title:'Next.js' , description:'jkdskbasd' },
 ]
 
 const Experiences = () => {
