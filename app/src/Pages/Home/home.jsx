@@ -1,7 +1,7 @@
 import Header from '../../Components/Header/Header';
 import './home.css'
 
-import  Experience  from '../../Components/Experience/Experience';
+import  Experiences  from '../../Components/Experience/Experiences';
 const Home = () => {
     let infoPersonal = [
         {name:'Younes' , job:'Developer',description:`i'm Fullstack developer`},
@@ -13,16 +13,7 @@ const Home = () => {
                 {/*  */}
                
                 <div className='container-experience'>
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
-                    <Experience title='hi' />
+                    <Experiences />
                 </div>
                 {/*  */}
 

@@ -1,6 +1,15 @@
-.experience {
-    width: 300px;
+.card-experience {
+    width: 100%;
     height: 200px;
-    margin:20px  12px;
-    background-color: aquamarine;
+    background-color: rgb(32, 44, 40);
+}
+.Experiences {
+    width: 100%;
+    height: auto;
+}
+.container-item {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 7px;
+    
 }
