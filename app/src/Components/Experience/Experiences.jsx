@@ -1,5 +1,7 @@
 import Experience from "./Experience"
 import './Experience.css'
+import handleViewport from 'react-in-viewport';
+
 let experiences = [
   { id: 1, Img: '' , title:'HTML' , description:'Markup Language' },
   { id: 2, Img: '' , title:'CSS' , description:'jkdskbasd' },
@@ -19,10 +21,14 @@ let experiences = [
 ]
 
 const Experiences = () => {
+
   return (
     <div className="Experiences">
         <div className="container-item">
-          { experiences.map (item => <><Experience {...item} /></> )}
+          {/* { experiences.map (item => <><Experience className='Fadin' {...item} /></> )} */}
+           
+               { experiences.map (item => <><Experience className='Fadin' {...item} /></> )}
+          
         </div>
     </div>
   )

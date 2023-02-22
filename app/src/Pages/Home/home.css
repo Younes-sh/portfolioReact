@@ -13,8 +13,6 @@
 .container-Home {
     width: 64%;
     height: auto;
-    /* border: solid 1px; */
-
 }
 
 
@@ -33,6 +31,6 @@
 }
 
 .container-experience {
-    margin-top: 250px;
+    margin: 350px 0;
 
 }

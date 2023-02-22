@@ -11,7 +11,8 @@ const Home = () => {
             <div className='container-Home'>
                 <Header name={infoPersonal[0].name} job={infoPersonal[0].job}  description={infoPersonal[0].description} />
                 {/*  */}
-               
+
+               {/*  */}
                 <div className='container-experience'>
                     <Experiences />
                 </div>
