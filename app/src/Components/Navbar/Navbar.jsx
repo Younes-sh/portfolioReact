@@ -1,29 +1,30 @@
-// import React,{useState,useEffect} from 'react'
 import {Link} from 'react-router-dom';
 import './navbar.css'
 import MenuBurger from '../MenuBurger/MenuBurger'
 const Navbar = () => {
-  
- 
+    // let [color , setColor] = useState ()
+
+
+
+
 
   return (
     <div className='Navbar'>
         <MenuBurger />
-                <div className='container-menu'>
+        <div className='container-menu'>
                     <ul>
                         <li>
-                            <Link style={{color:'white'}} to='/'>Home</Link>
+                           <Link  to='/'><span >Home</span>  </Link>
                         </li>
                         <li>
-                            <Link style={{color:'white'}} to='/contact'>Contact</Link>
+                        <Link  to='/contact'><span >Contact</span></Link>
                         </li>
                         <li>
-                            <Link style={{color:'white'}} to='/projects'>Projects</Link>
+                        <Link  to='/projects'><span >Projects</span></Link>
                         </li>
                     </ul>
                  </div>
         <div className='LangNav'>
-
         </div>
     </div>
   )

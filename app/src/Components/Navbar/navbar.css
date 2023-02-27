@@ -13,6 +13,14 @@
     height: 100%;
 }
 
+.Navbar .container-menu  button {
+    border:'none';
+    background-color: transparent;    
+    cursor: pointer;
+	outline: none;
+
+}
+
 .container-menu ul {
     display: flex;
     justify-content: center;
@@ -21,14 +29,18 @@
     list-style-type: none;
     margin: 20px;
 }
-.menu-button {
-    display: none;
+.container-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.container-menu li a:hover {
+    color: #FFC300;
 }
 @media screen and (max-width:768px) {
   .container-menu {
     display: none;
   }
 }
-
-
 
