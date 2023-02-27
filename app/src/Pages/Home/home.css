@@ -11,8 +11,9 @@
 }
 
 .container-Home {
-    width: 64%;
+    width: 100%;
     height: auto;
+    z-index: 0;
 }
 
 

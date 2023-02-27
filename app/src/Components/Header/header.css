@@ -1,20 +1,21 @@
 /* Container */
 .Header {
-  width: 100%;
+  width: 65%;
   height: 600px;
+  margin: 0 auto;
   padding-top: 100px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 /*  */
+
 .Header-txt {
   width: 50%;
   height: 400px;
-  text-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
 }
 .Header-txt h1 {
   font-size: 4rem;
@@ -60,7 +61,7 @@
   margin-top: 40px;
 }
 .image_container img {
-  clip-path: polygon(50% 0%, 100% 0, 94% 37%, 100% 84%, 85% 96%, 50% 100%, 14% 94%, 0 80%, 4% 39%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 90% 30%, 97% 84%, 85% 96%, 50% 100%, 14% 94%, 0 80%, 4% 39%, 0 0);
 }
 
 @media screen and (max-width:1200px) {

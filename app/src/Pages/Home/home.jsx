@@ -1,6 +1,5 @@
 import Header from '../../Components/Header/Header';
 import './home.css'
-
 import  Experiences  from '../../Components/Experience/Experiences';
 const Home = () => {
     let infoPersonal = [
@@ -14,7 +13,7 @@ const Home = () => {
 
                {/*  */}
                 <div className='container-experience'>
-                    <Experiences />
+                    {/* <Experiences /> */}
                 </div>
                 {/*  */}
 
