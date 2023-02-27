@@ -1,23 +1,23 @@
 import React from 'react'
-import INSTA from ''
-import GITHUB from ''
-import CODEPEN from ''
+import INSTA from '../../assets/icon/instagram.png'
+import GITHUB from '../../assets/icon/github.png'
+import CODEPEN from '../../assets/icon/codepen.png'
 import FACEBOOK from ''
 
 let iconSocialMedia = [
-    {ICON:''},
-    {ICON:''},
-    {ICON:''},
-    {ICON:''},
+    {ICON1:'INSTA'},
+    {ICON2:'GITHUB'},
+    {ICON3:'CODEPEN'},
+    {ICON4:'FACEBOOK'},
 ]
 const SocialMedia = () => {
   return (
     <div>
         <ul>
-            <li><a href={INSTA}><i></i></a></li>
-            <li><a href={GITHUB}><i></i></a></li>
-            <li><a href={CODEPEN}><i></i></a></li>
-            <li><a href={FACEBOOK}><i></i></a></li>
+            <li><a href={...iconSocialMedia[0]}><i></i></a></li>
+            <li><a href={...iconSocialMedia[1]}><i></i></a></li>
+            <li><a href={...iconSocialMedia[2]}><i></i></a></li>
+            <li><a href={...iconSocialMedia[3]}><i></i></a></li>
         </ul>
     </div>
   )
