@@ -1,36 +1,35 @@
-import Experience from "./Experience"
-import './Experience.css'
-import handleViewport from 'react-in-viewport';
-
-let experiences = [
-  { id: 1, Img: '' , title:'HTML' , description:'Markup Language' },
-  { id: 2, Img: '' , title:'CSS' , description:'jkdskbasd' },
-  { id: 3, Img: '' , title:'JS' , description:'Javascript' },
-
-  { id: 4, Img: '' , title:'React' , description:'jkdskbasd' },
-  { id: 5, Img: '' , title:'Node.js' , description:'jkdskbasd' },
-  { id: 6, Img: '' , title:'MongoDB' , description:'jkdskbasd' },
-
-  { id: 7, Img: '' , title:'Next.js' , description:'jkdskbasd' },
-  { id: 8, Img: '' , title:'Git' , description:'jkdskbasd' },
-  { id: 9, Img: '' , title:'React' , description:'jkdskbasd' },
-  
-  { id: 10, Img: '' , title:'Node.js' , description:'jkdskbasd' },
-  { id: 11, Img: '' , title:'MongoDB' , description:'jkdskbasd' },
-  { id: 12, Img: '' , title:'Next.js' , description:'jkdskbasd' },
-]
-
+import React from 'react'
+import image1 from '../../assets/Imge/coffee.png'
+import image2 from '../../assets/Imge/'
+import image3 from '../../assets/Imge/'
+import image4 from '../../assets/Imge/'
 const Experiences = () => {
-
   return (
-    <div className="Experiences">
-        <div className="container-item">
-          {/* { experiences.map (item => <><Experience className='Fadin' {...item} /></> )} */}
-           
-               { experiences.map (item => <><Experience className='Fadin' {...item} /></> )}
-          
-        </div>
-    </div>
+	<div>
+
+
+		<article class="slide">
+		  <div class="slide-show">
+		    <div class="slide-item"> <img class="slide-img" src={} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={} /></div>
+		  </div>
+		  <div class="slide-text">
+		    <div class="half a-center">
+		      <h2 class="alide-title">"The slide" just watch it</h2>
+		    </div>
+		    <div class="half a-down"><a class="btn over-transparent" href="">Button Here</a></div>
+		    <ul class="slide-indicator">
+		      <li class="indicator-item"><a rol="low-indicator"></a></li>
+		      <li class="indicator-item"><a rol="low-indicator"></a></li>
+		      <li class="indicator-item"><a rol="low-indicator"></a></li>
+		    </ul>
+		  </div>
+		</article>
+
+
+	</div>
   )
 }
 

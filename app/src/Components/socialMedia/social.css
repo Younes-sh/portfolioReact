@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     background: rgb(1,11,38);
-    background: linear-gradient(90deg, rgba(1,11,38,1) 0%, rgba(1,11,38,0.969625350140056) 51%, rgba(111,59,97,1) 98%);
+    background: linear-gradient(90deg, rgba(1,11,38,1) 0%, rgba(8,17,56,1) 51%, rgba(149,48,38,1) 98%);
 }
 .container-footer li {
     list-style: none;

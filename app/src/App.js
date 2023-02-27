@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Routing />
+          <Routing />
         <Footer />
       </BrowserRouter>
     </div>
