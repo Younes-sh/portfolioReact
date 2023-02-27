@@ -1,8 +1,8 @@
 import React from 'react'
 import image1 from '../../assets/Imge/coffee.png'
-import image2 from '../../assets/Imge/'
-import image3 from '../../assets/Imge/'
-import image4 from '../../assets/Imge/'
+import image2 from '../../assets/Imge/crypto.png'
+import image3 from '../../assets/Imge/panel.png'
+import image4 from '../../assets/Imge/younicoin.png'
 const Experiences = () => {
   return (
 	<div>
@@ -10,10 +10,10 @@ const Experiences = () => {
 
 		<article class="slide">
 		  <div class="slide-show">
-		    <div class="slide-item"> <img class="slide-img" src={} /></div>
-		    <div class="slide-item"> <img class="slide-img" src={} /></div>
-		    <div class="slide-item"> <img class="slide-img" src={} /></div>
-		    <div class="slide-item"> <img class="slide-img" src={} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={image1} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={image2} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={image3} /></div>
+		    <div class="slide-item"> <img class="slide-img" src={image4} /></div>
 		  </div>
 		  <div class="slide-text">
 		    <div class="half a-center">
