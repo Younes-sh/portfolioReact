@@ -1,6 +1,6 @@
 import Header from '../../Components/Header/Header';
 import './home.css'
-import  Experiences  from '../../Components/Experience/SlideShow';
+import  Experiences  from '../../Components/Slide-show/SlideShow';
 const Home = () => {
     let infoPersonal = [
         {name:'Younes' , job:'Developer',description:`i'm Fullstack developer`},
