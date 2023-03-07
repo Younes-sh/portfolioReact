@@ -1,51 +1,36 @@
-import React from 'react'
-import './Slide-Show.css'
-import { Slide } from 'react-slideshow-image'
+import { Slide } from "react-slideshow-image";
+import './styles.css'
 
-import image1 from '../../assets/Imge/coffee.png'
-import image2 from '../../assets/Imge/crypto.png'
-import image3 from '../../assets/Imge/panel.png'
-import image4 from '../../assets/Imge/younicoin.png'
-
-
-
-const proprietes = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: true,
-  arrows: true
-}
-
-const SlideShow = () => {
+const SlideShow = ({ onChangeHandler, slideImages }) => {
   return (
-	<div className='containerSlide'>
-
-    <Slide {...proprietes}>
-        <div className="each-slide">
-            <div>
-                <img src={image1} alt="img1" />
-            </div>
+    <div className="slide-container">
+    <Slide onChange={(from, to) => onChangeHandler(to)}>
+      {slideImages.map((slideImage, index) => (
+        <div
+          className='slide'
+          style={{
+            display: "block",
+            overflow: "hidden",
+            transition: "width 2s, height 4s",
+          }}
+          key={slideImage.url}
+        >
+          <img
+            src={slideImage.url}
+            alt="img"
+            style={{
+              display: "block",
+              marginLeft: "auto",
+              marginRight: "auto",
+              objectFit: "contain",
+              cursor: "pointer",
+            }}
+          />
         </div>
-        <div className="each-slide">
-            <div>
-                <img src={image2} alt="img2" />
-            </div>
-        </div>
-        <div className="each-slide">
-            <div>
-                <img src={image3} alt="img3" />
-            </div>
-        </div>
-        <div className="each-slide">
-            <div>
-                <img src={image4} alt="img3" />
-            </div>
-        </div>
+      ))}
     </Slide>
+     </div>
+  );
+};
 
-	</div>
-  )
-}
-
-export default SlideShow
+export default SlideShow;

@@ -1,0 +1,14 @@
+.slide-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.Slide {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #010b26;
+}
+
+.slide img {
+    width: 72%;
+}
+
