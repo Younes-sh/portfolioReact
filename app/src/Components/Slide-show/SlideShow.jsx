@@ -1,5 +1,7 @@
 import React from 'react'
-import './Slide.css'
+import './Slide-Show.css'
+import { Slide } from 'react-slideshow-image'
+
 import image1 from '../../assets/Imge/coffee.png'
 import image2 from '../../assets/Imge/crypto.png'
 import image3 from '../../assets/Imge/panel.png'
@@ -22,17 +24,22 @@ const SlideShow = () => {
     <Slide {...proprietes}>
         <div className="each-slide">
             <div>
-                <img src={img1} alt="img1" />
+                <img src={image1} alt="img1" />
             </div>
         </div>
         <div className="each-slide">
             <div>
-                <img src={img2} alt="img2" />
+                <img src={image2} alt="img2" />
             </div>
         </div>
         <div className="each-slide">
             <div>
-                <img src={img3} alt="img3" />
+                <img src={image3} alt="img3" />
+            </div>
+        </div>
+        <div className="each-slide">
+            <div>
+                <img src={image4} alt="img3" />
             </div>
         </div>
     </Slide>
