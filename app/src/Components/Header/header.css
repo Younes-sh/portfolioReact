@@ -59,11 +59,76 @@
   width: 50%;
   height: auto;
   margin-top: 40px;
+  position: relative;
 }
-.image_container img {
+.image_container .img {
   clip-path: polygon(50% 0%, 100% 0, 90% 30%, 97% 84%, 85% 96%, 50% 100%, 14% 94%, 0 80%, 4% 39%, 0 0);
 }
-
+.icons {
+  width: 70px;
+  position: absolute;
+  animation: bootstrap 3s infinite alternate;
+}
+.figma {
+  left: 22%;
+  top: 20%;
+  position: absolute;
+}
+.bootstrap {
+  top: 50%;
+  left: 70%;
+  
+}
+@keyframes bootstrap {
+  0% {
+    margin: 0;
+  }
+  50% {
+    margin: 5px 0;
+  }
+  100% {
+    margin:10px  0;
+  }
+}
+.docker {
+  top: 87%;
+  left: 50%;
+  z-index: 1;
+}
+.git {
+  top: 30%;
+  left: 47%;
+  
+}
+.mongodb {
+  top: 70%;
+  left: 50%;
+  
+  z-index: 1;
+}
+.react {
+  top: 90%;
+  left: 70%;
+  
+  z-index: 1;
+}
+.sass {
+  top: 80%;
+  left: 20%;
+  
+  z-index: 1;
+}
+.github-2 {
+  top: 90%;
+  left: 30%;
+  
+  z-index: 1;
+}
+.node-js {
+  top: 47%;
+  left: 20%;
+}
+/* Media Queries */
 @media screen and (max-width:1200px) {
   .Header {
     flex-direction: column;
