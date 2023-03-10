@@ -1,7 +1,6 @@
 /* Container */
 .Header {
   width: 65%;
-  height: 600px;
   margin: 0 auto;
   padding-top: 100px;
   display: flex;
@@ -129,9 +128,21 @@
   left: 20%;
 }
 /* Media Queries */
+@media screen and (max-width:1780px) {
+ .node-js {
+  top: 47%;
+  left: 10%;
+}
+.figma {
+  left:12%;
+  top: 20%;
+  position: absolute;
+}
+}
 @media screen and (max-width:1200px) {
   .Header {
     flex-direction: column;
+    background-color: green;
   }
   
   .Header-txt {
@@ -141,7 +152,11 @@
     width: 100%;
     font-size: 40px;
   }
+  .icons {
+    display: none;
+  }
 }
+
 @media screen and (max-width:600px) {
   .Header-txt h1 {
     font-size: 25px;
