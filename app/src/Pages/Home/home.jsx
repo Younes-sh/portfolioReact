@@ -1,6 +1,6 @@
 import Header from '../../Components/Header/Header';
 import './home.css'
-import  Experiences  from '../../Components/Slide-show/Slide';
+import  Slide  from '../../Components/Slide-show/Slide';
 const Home = () => {
     let infoPersonal = [
         {name:'Younes' , job:'Developer',description:`i'm Fullstack developer`},
@@ -15,7 +15,7 @@ const Home = () => {
                 </div>
             
             </div>
-            <Experiences />
+            <Slide className='Slide'/>
             
         </div>
     )

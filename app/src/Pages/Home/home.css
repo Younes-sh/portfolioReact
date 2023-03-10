@@ -1,7 +1,7 @@
 .Home {
     width: 100%;
     height: auto;
-    
+    background: rgb(1,11,38);
 }
 
 .container-Home {
@@ -39,3 +39,12 @@ background: linear-gradient(90deg, rgba(1,11,38,1) 0%, rgba(8,17,56,1) 51%, rgba
     margin: 350px 0;
 
 }
+
+@media screen and (max-width: 1200px) {
+  
+    .container-Home {
+        background-image: none ;
+    }
+
+}
+    
