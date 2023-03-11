@@ -1,3 +1,4 @@
+
 .Navbar {
     width: 100%;
     height: 70px;
@@ -8,12 +9,23 @@
     position: fixed;
     z-index: 2;
 }
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .active {
     border-bottom: 3px solid #FFC300;
 }
-.container-menu , .LangNav {
+.container-menu , .nav-language {
     width: 50%;
     height: 100%;
+    padding-left:80px;
+    display: flex;
+    justify-content: center;
+    /* background-color: #FFC300; */
 }
 
 .Navbar .container-menu  button {
@@ -41,9 +53,19 @@
 .container-menu li a:hover {
     color: #FFC300;
 }
-@media screen and (max-width:768px) {
-  .container-menu {
-    display: none;
-  }
+
+/* nav-language */
+
+.nav-language {
+    align-items: center;
+    padding-left: 180px;
 }
 
+@media screen and (max-width:768px) {
+    .container-menu {
+        display: none;
+    }
+    .nav-language {
+        padding: 0px;
+    }
+}

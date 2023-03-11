@@ -1,0 +1,10 @@
+{
+    "welcome":"Bien venu",
+    "title": "next-i18next demo",
+    "metaDescription": "A simple internationalization (i18n) demo",
+    "home": "Home",
+    "about": "About",
+    
+    "homeContent": "This home page was last rendered on {{val, datetime}}.",
+    "aboutContent": "This about page was last rendered on {{val, datetime}}."
+  }

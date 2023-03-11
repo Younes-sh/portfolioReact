@@ -1,5 +1,5 @@
 // import React,{useState,useEffect} from 'react'
-import {Link} from 'react-router-dom';
+import {Link , NavLink} from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 import './MenuBurger.css'
 const MenuBurger = () => {
@@ -13,13 +13,13 @@ const MenuBurger = () => {
             <div className='container-menu'>
                 <ul>
                     <li className="menu-item">
-                        <Link style={{color:'white'}} to='/'>Home</Link>
+                        <NavLink style={{color:'white'}} to='/'>Home</NavLink>
                     </li>
                     <li className="menu-item">
-                        <Link style={{color:'white'}} to='/contact'>Contact</Link>
+                        <NavLink style={{color:'white'}} to='/contact'>Contact</NavLink>
                     </li>
                     <li className="menu-item">
-                        <Link style={{color:'white'}} to='/projects'>Projects</Link>
+                        <NavLink style={{color:'white'}} to='/projects'>Projects</NavLink>
                     </li>
                 </ul>
              </div>
